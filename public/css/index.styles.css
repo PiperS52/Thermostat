@@ -1,0 +1,52 @@
+body {
+  background: url("thermostat-pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.low-usage {
+  color: green;
+}
+
+.medium-usage {
+  color: orange;
+}
+
+.high-usage {
+  color: red;
+}
+
+h1 {
+  color: white;
+  font-size: 27px;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+#weather-description {
+  color: yellow;
+}
+
+#weather-humidity {
+  color: yellow;
+}
+#weather-temp {
+  color: yellow;
+}
+#weather-temp_max {
+  color: yellow;
+}
+
+#weather-temp_min {
+  color: yellow;
+}
+
+#weather-wind_speed {
+  color: yellow;
+}

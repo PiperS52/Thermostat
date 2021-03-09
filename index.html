@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/css/index.styles.css">
+  <title>Thermostat</title>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+  <section>
+    <h1 id="heading">Temperature</h1>
+  <h1 name='temperature' id="temperature"></h1>
+  <div>
+    <button id="temperature-up">Up</button>
+    <button id="temperature-down">Down</button>
+    <button id="temperature-reset">Reset to default</button>
+    <button id="powersave-on">Powersave on</button>
+    <button id="powersave-off">Powersave off</button>
+  </div>
+  <br>
+  <div id="weather-value-descriptors">
+    <h3> Weather description:</h3> <p id="weather-description"></p>
+    <h3> Humidity: <p id="weather-humidity"></p>
+    <h3> Temperature:</h3> <p id="weather-temp"></p>
+    <h3> Max Temperature:</h3> <p id="weather-temp_max"></p>
+    <h3> Min Temperature:</h3> <p id="weather-temp_min"></p>
+    <h3> Wind Speed:</h3> <p id="weather-wind_speed"></p>
+</div>
+  <br>
+  <label for="city"><h3>City</h3></label>
+  <form>
+    <input id="city-input" placeholder="city" type="text"></input>
+    <button id='city' type='submit'>Submit</button>
+  </form>
+</section>
+</body>
+<script src="./src/thermostat.js"></script>
+<script src="./src/interface.js"></script>
+</html>
